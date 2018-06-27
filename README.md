@@ -4,7 +4,9 @@ A word alignment model between English and French using the IBM-1 Model
 The corpus used for this project is the Hansard records of the 36th Canadian Parliamnet.
 The data is pairs of correponsing english and french sentence lines.
 
-preprocess.py - processes each sentence for each language, counts unigrams and bigrams for the language corpus and creates a language model for each language.
+preprocess.py - Processes each sentence for each language. 
+
+lm_train.py - Counts unigrams and bigrams for the language corpus and creates a language model for each language.
 
 log_prob.py - Calculates Maximum Likelihood Estimate or Delta-Smoothed estimate of sentence based on language model.
 
