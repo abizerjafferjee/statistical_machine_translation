@@ -19,3 +19,5 @@ evalAlign.py - Evaluates the alignment model by comparing french to english tran
 decode.py - To decode french to english
 
 BLEU_score.py - To calculate BLEU_score
+
+Sample training data added. Request the rest.
